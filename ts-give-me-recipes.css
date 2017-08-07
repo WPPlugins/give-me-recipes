@@ -1,0 +1,39 @@
+/*
+Styles
+*/
+input#give-me-recipe {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input#ingredients, input#query {
+    height: 30px;
+    box-shadow: none;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    width: 80%;
+}
+
+input#ingredients:focus, input#query:focus {
+    outline-width: 0;
+}
+
+ul#the-recipes {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+img.recipe-img {
+   width: 70px;
+   margin-right: 10px;
+}
+
+li.recipe-list-item {
+    margin-bottom: 15px;
+}
